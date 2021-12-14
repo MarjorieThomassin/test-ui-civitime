@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
+.avatar-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(53, 50, 50);
+    margin-bottom: 2rem;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+}
+
+.gender-label {
+    padding: 0.7rem;
+}
+
+#skin-border {
+    margin-top: 3rem;
+    border-top: solid 1px black;
+}
+
+.skin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.submit-form {
+    background-color: #1b39e2;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    min-width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 0.50rem;
+    border-radius: 30px;
+}
+
+@media screen and (min-width: 600px) {
+    .submit-form {
+        min-width: 20%;
+    }
+}
